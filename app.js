@@ -121,3 +121,4 @@ const propertyName = 'username';
 const userProfile = {[propertyName]: 'The Riviera',};
 
 console.log(userProfile);
+

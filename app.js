@@ -155,7 +155,7 @@ const pizza = 'tasty';
 
 // Your code here:
 
-let taste = 'tasty' ? 'yum' : 'yuck';
+let taste = pizza === 'tasty' ? 'yum' : 'yuck';
 
 console.log(taste);
 

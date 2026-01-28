@@ -140,3 +140,22 @@ function grammar(noun = 'cat', adjective = 'orange') {
 
 console.log(grammar('dog', 'blue'));
 
+// ! Exercise 9:
+// a. Convert the following `if...else` statement into a ternary:
+//
+//    if (pizza === 'tasty') {
+//      console.log('yum');
+//    } else {
+//      console.log('yuck');
+//    }
+//
+// Starting code (don't modify this):
+
+const pizza = 'tasty';
+
+// Your code here:
+
+let taste = 'tasty' ? 'yum' : 'yuck';
+
+console.log(taste);
+
